@@ -1,0 +1,2 @@
+C:\Users\aguro\Downloads\Hack U Tokyo\HACK U TOKYO UNITY PROJECT ver1.2\Build ver1.1\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\aguro\Downloads\Hack U Tokyo\HACK U TOKYO UNITY PROJECT ver1.2\Build ver1.1\HACK U TOKYO UNITY PROJECT ver1.2\HACK U TOKYO UNITY PROJECT ver1.2.csproj;x86
