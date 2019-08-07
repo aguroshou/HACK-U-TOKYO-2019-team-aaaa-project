@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 15868945}
   - component: {fileID: 15868944}
   - component: {fileID: 15868943}
+  - component: {fileID: 15868946}
   m_Layer: 0
   m_Name: BP_white_wine_color_1 (1)
   m_TagString: Untagged
@@ -215,6 +216,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15868941}
   m_Mesh: {fileID: 4300000, guid: b259842ba21c42046998572ffbc0eda3, type: 3}
+--- !u!114 &15868946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15868941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1001 &20371072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1823,6 +1838,7 @@ GameObject:
   - component: {fileID: 349902714}
   - component: {fileID: 349902713}
   - component: {fileID: 349902712}
+  - component: {fileID: 349902715}
   m_Layer: 0
   m_Name: BP_red_wine_color_2 (1)
   m_TagString: Untagged
@@ -1914,6 +1930,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349902710}
   m_Mesh: {fileID: 4300000, guid: f8270a09e16cc1843bc98462e3379516, type: 3}
+--- !u!114 &349902715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349902710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &411659457
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,6 +2359,7 @@ GameObject:
   - component: {fileID: 474145067}
   - component: {fileID: 474145066}
   - component: {fileID: 474145065}
+  - component: {fileID: 474145068}
   m_Layer: 0
   m_Name: BP_beer_color_2 (1)
   m_TagString: Untagged
@@ -2420,6 +2451,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474145063}
   m_Mesh: {fileID: 4300000, guid: c31f98bc432269846989a5aa767dd877, type: 3}
+--- !u!114 &474145068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474145063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &485086162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,6 +2708,7 @@ GameObject:
   - component: {fileID: 563361590}
   - component: {fileID: 563361589}
   - component: {fileID: 563361588}
+  - component: {fileID: 563361591}
   m_Layer: 0
   m_Name: BP_white_wine_color_2 (1)
   m_TagString: Untagged
@@ -2754,6 +2800,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563361586}
   m_Mesh: {fileID: 4300000, guid: b259842ba21c42046998572ffbc0eda3, type: 3}
+--- !u!114 &563361591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563361586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &592383045
 GameObject:
   m_ObjectHideFlags: 0
@@ -8822,6 +8882,7 @@ GameObject:
   - component: {fileID: 852308430}
   - component: {fileID: 852308429}
   - component: {fileID: 852308428}
+  - component: {fileID: 852308431}
   m_Layer: 0
   m_Name: BP_red_wine_color_1 (1)
   m_TagString: Untagged
@@ -8913,6 +8974,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852308426}
   m_Mesh: {fileID: 4300000, guid: f8270a09e16cc1843bc98462e3379516, type: 3}
+--- !u!114 &852308431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852308426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &884816620
 GameObject:
   m_ObjectHideFlags: 0
@@ -9704,6 +9779,7 @@ GameObject:
   - component: {fileID: 1309810505}
   - component: {fileID: 1309810504}
   - component: {fileID: 1309810503}
+  - component: {fileID: 1309810506}
   m_Layer: 0
   m_Name: BP_champagne_color_2 (1)
   m_TagString: Untagged
@@ -9795,6 +9871,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309810501}
   m_Mesh: {fileID: 4300000, guid: 1ef239c792a51b04f8bd3fa4847a11e8, type: 3}
+--- !u!114 &1309810506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309810501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &1342929602
 GameObject:
   m_ObjectHideFlags: 0
@@ -9884,6 +9974,7 @@ GameObject:
   - component: {fileID: 1364050018}
   - component: {fileID: 1364050017}
   - component: {fileID: 1364050016}
+  - component: {fileID: 1364050019}
   m_Layer: 0
   m_Name: BP_beer_color_1 (1)
   m_TagString: Untagged
@@ -9975,6 +10066,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364050014}
   m_Mesh: {fileID: 4300000, guid: c31f98bc432269846989a5aa767dd877, type: 3}
+--- !u!114 &1364050019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364050014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &1379040149
 GameObject:
   m_ObjectHideFlags: 0
@@ -12348,6 +12453,7 @@ GameObject:
   - component: {fileID: 1977642571}
   - component: {fileID: 1977642570}
   - component: {fileID: 1977642569}
+  - component: {fileID: 1977642572}
   m_Layer: 0
   m_Name: BP_champagne_color_1 (1)
   m_TagString: Untagged
@@ -12439,6 +12545,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977642567}
   m_Mesh: {fileID: 4300000, guid: 1ef239c792a51b04f8bd3fa4847a11e8, type: 3}
+--- !u!114 &1977642572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977642567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &1978156819
 GameObject:
   m_ObjectHideFlags: 0
@@ -13189,6 +13309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4433656630644266}
   - component: {fileID: 205967960682473040}
+  - component: {fileID: 1458648280237937}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v2 (3)
   m_TagString: Untagged
@@ -13196,6 +13317,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1458648280237937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458648280237936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1458648887022127
 GameObject:
   m_ObjectHideFlags: 0
@@ -13206,6 +13341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4433656300788597}
   - component: {fileID: 205967961155760911}
+  - component: {fileID: 1458648887022128}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v2
   m_TagString: Untagged
@@ -13213,6 +13349,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1458648887022128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458648887022127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1458649579206631
 GameObject:
   m_ObjectHideFlags: 0
@@ -13223,6 +13373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4433658066452157}
   - component: {fileID: 205967959364638407}
+  - component: {fileID: 1458649579206632}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v2 (1)
   m_TagString: Untagged
@@ -13230,6 +13381,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1458649579206632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458649579206631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1458650071939274
 GameObject:
   m_ObjectHideFlags: 0
@@ -13240,6 +13405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4433657351483792}
   - component: {fileID: 205967959958231530}
+  - component: {fileID: 1458650071939275}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v2 (2)
   m_TagString: Untagged
@@ -13247,6 +13413,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1458650071939275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458650071939274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1491556337828950
 GameObject:
   m_ObjectHideFlags: 0
@@ -13276,6 +13456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4635478255833267}
   - component: {fileID: 205035486192933951}
+  - component: {fileID: 1776079546090566}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v1 (2)
   m_TagString: Untagged
@@ -13283,6 +13464,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1776079546090566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776079546090565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1776080020800701
 GameObject:
   m_ObjectHideFlags: 0
@@ -13293,6 +13488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4635476699254859}
   - component: {fileID: 205035486784953543}
+  - component: {fileID: 1776080020800702}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v1 (3)
   m_TagString: Untagged
@@ -13300,6 +13496,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1776080020800702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776080020800701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1776080507840276
 GameObject:
   m_ObjectHideFlags: 0
@@ -13310,6 +13520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4635477327918050}
   - component: {fileID: 205035487139872622}
+  - component: {fileID: 1776080507840277}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v1
   m_TagString: Untagged
@@ -13317,6 +13528,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1776080507840277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776080507840276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1776080576448710
 GameObject:
   m_ObjectHideFlags: 0
@@ -13327,6 +13552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4635477259295792}
   - component: {fileID: 205035487340728508}
+  - component: {fileID: 1776080576448711}
   m_Layer: 0
   m_Name: WoodenBarrel_Open_v1 (1)
   m_TagString: Untagged
@@ -13334,6 +13560,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &1776080576448711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776080576448710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.2, z: 0}
+  MoveTime: 20
 --- !u!1 &1818785362540814
 GameObject:
   m_ObjectHideFlags: 0
@@ -15567,6 +15807,7 @@ GameObject:
   - component: {fileID: 38220507870187721}
   - component: {fileID: 46335626552937769}
   - component: {fileID: 69024337779477556}
+  - component: {fileID: 69024337779477557}
   m_Layer: 0
   m_Name: BP_red_wine_color_1
   m_TagString: Untagged
@@ -15598,6 +15839,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &69024337779477557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69024337779477555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!81 &81602671533573394
 AudioListener:
   m_ObjectHideFlags: 0
@@ -15883,6 +16138,7 @@ GameObject:
   - component: {fileID: 2152974576894182440}
   - component: {fileID: 2145166413083313412}
   - component: {fileID: 2130961528023481613}
+  - component: {fileID: 2130961528023481614}
   m_Layer: 0
   m_Name: BP_beer_color_2
   m_TagString: Untagged
@@ -15914,6 +16170,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &2130961528023481614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130961528023481612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!4 &2132636483647281546
 Transform:
   m_ObjectHideFlags: 0
@@ -16138,6 +16408,7 @@ GameObject:
   - component: {fileID: 6140187448423697341}
   - component: {fileID: 6130245793736706347}
   - component: {fileID: 6144770882453689892}
+  - component: {fileID: 6144770882453689893}
   m_Layer: 0
   m_Name: BP_red_wine_color_2
   m_TagString: Untagged
@@ -16169,6 +16440,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &6144770882453689893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6144770882453689891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!4 &6146962109453740447
 Transform:
   m_ObjectHideFlags: 0
@@ -16347,6 +16632,7 @@ GameObject:
   - component: {fileID: 6424618123552728114}
   - component: {fileID: 6417070532105447300}
   - component: {fileID: 6438893237740038233}
+  - component: {fileID: 6438893237740038234}
   m_Layer: 0
   m_Name: BP_white_wine_color_2
   m_TagString: Untagged
@@ -16378,6 +16664,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &6438893237740038234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438893237740038232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1001 &6846815935953299724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16494,6 +16794,7 @@ GameObject:
   - component: {fileID: 7666318353842942736}
   - component: {fileID: 7660151594313289486}
   - component: {fileID: 7645541939136458553}
+  - component: {fileID: 7645541939136458554}
   m_Layer: 0
   m_Name: BP_white_wine_color_1
   m_TagString: Untagged
@@ -16525,6 +16826,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &7645541939136458554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645541939136458552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &7647064571885905842
 GameObject:
   m_ObjectHideFlags: 0
@@ -16663,6 +16978,7 @@ GameObject:
   - component: {fileID: 8570967558201456089}
   - component: {fileID: 8563078542049559843}
   - component: {fileID: 8539601040969025402}
+  - component: {fileID: 8539601040969025403}
   m_Layer: 0
   m_Name: BP_beer_color_1
   m_TagString: Untagged
@@ -16694,6 +17010,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &8539601040969025403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8539601040969025401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!4 &8541298523109045931
 Transform:
   m_ObjectHideFlags: 0
@@ -16825,6 +17155,7 @@ GameObject:
   - component: {fileID: 8643848977234129496}
   - component: {fileID: 8633805759000793140}
   - component: {fileID: 8612831067479530979}
+  - component: {fileID: 8612831067479530980}
   m_Layer: 0
   m_Name: BP_champagne_color_2
   m_TagString: Untagged
@@ -16856,6 +17187,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &8612831067479530980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8612831067479530978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &8613058399276686590
 GameObject:
   m_ObjectHideFlags: 0
@@ -17109,6 +17454,7 @@ GameObject:
   - component: {fileID: 8648277887215911820}
   - component: {fileID: 8656273411329742704}
   - component: {fileID: 8679601515663885935}
+  - component: {fileID: 8679601515663885936}
   m_Layer: 0
   m_Name: BP_champagne_color_1
   m_TagString: Untagged
@@ -17140,6 +17486,20 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &8679601515663885936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8679601515663885934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f8a9f953115743a6d73b58323affa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveMag: {x: 0, y: 0.1, z: 0}
+  MoveTime: 10
 --- !u!1 &8679748390088742480
 GameObject:
   m_ObjectHideFlags: 0
