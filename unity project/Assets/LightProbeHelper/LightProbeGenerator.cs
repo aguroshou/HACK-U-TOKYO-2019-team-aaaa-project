@@ -45,8 +45,8 @@ public class LightProbeGenerator : MonoBehaviour
 				probePositions.AddRange(GetProbesForVolume_Random(area.ProbeVolume, area.RandomCount));
 			}
 		}
-
-		lprobe.probePositions = probePositions.ToArray();
+		//Aguro added. This cause error.
+		//lprobe.probePositions = probePositions.ToArray();
 	}
 
 	List<Vector3> GetProbesForVolume_Grid(Bounds ProbeVolume, Vector3 Subdivisions)

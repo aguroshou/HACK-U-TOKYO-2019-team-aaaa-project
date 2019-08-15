@@ -1,9 +1,0 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <PropertyGroup>
-        <UnityWSASolutionName>HACK U TOKYO UNITY PROJECT ver1.2</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\Users\aguro\Downloads\Hack U Tokyo\HACK U TOKYO UNITY PROJECT ver1.2\Build ver1.1\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\aguro\Downloads\Hack U Tokyo\HACK U TOKYO UNITY PROJECT ver1.2\</UnityProjectDir>
-        <UnityWSAPlayerDir>C:\Program Files\Unity\Hub\Editor\2017.4.30f1\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
-        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
-    </PropertyGroup>
-</Project>

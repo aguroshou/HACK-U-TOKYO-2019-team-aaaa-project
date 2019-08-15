@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tip
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -14,6 +15,8 @@ TagManager:
   - UI
   - 
   - 
+  - ForWaterLightReflectionBottom
+  - ForWaterLightReflectionTop
   - 
   - 
   - 
@@ -26,10 +29,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Quad
+  - ForWaterCollision
   - 
   - 
   - 
